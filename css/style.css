@@ -2,8 +2,58 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 html{height:100%; font-family: 'Poppins';}
-body{line-height:1; background-color: #333; margin: 20px; display: flex;}
+body{line-height:1; background-color: #333;}
 ol,ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
+.block__button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.button {
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 12px;
+    animation: animatebtn 5s linear 0s infinite alternate forwards;
+}
+@keyframes animatebtn {
+    0% {
+        background-image: linear-gradient(to right top, #ec19c0, #ff3361, #fb8a00, #b2c400, #12eb85);
+    }
+    10% {
+        background-image: linear-gradient(to right top, #733658, #8a2970, #991590, #9f00b8, #9600e6);
+    }
+    20% {
+        background-image: linear-gradient(to right top, #e59dc5, #ff9096, #ff9f46, #d3c500, #00e601);
+    }
+    30% {
+        background-image: linear-gradient(to right top, #ca2929, #bb264f, #a03468, #7e4172, #5e486e);
+    }
+    40% {
+        background-image: linear-gradient(to right top, #d2dd6d, #b0d683, #99cc96, #8fc0a3, #92b1a7);
+    }
+    50% {
+        background-image: linear-gradient(to right top, #583e66, #3a5079, #0f5f7c, #0f6b71, #3b7361);
+    }
+    60% {
+        background-image: linear-gradient(to right top, #58663e, #63795a, #738c77, #869f92, #9eb1ab);
+    }
+    70% {
+        background-image: linear-gradient(to right top, #17f3d0, #00d9ec, #00b9fd, #0095f7, #656ad4);
+    }
+    80% {
+        background-image: linear-gradient(to right top, #5d6a68, #39737c, #00789f, #0077c2, #656ad4);
+    }
+    90% {
+        background-image: linear-gradient(to right top, #232928, #03282d, #00253b, #001e48, #0c0f49);
+    }
+    100% {
+        background-image: linear-gradient(to right top, #a3b2b0, #aab5b7, #b3b8bc, #babcbe, #c0c0c0);
+    }
+}

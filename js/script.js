@@ -169,7 +169,6 @@ console.log(!'hello');
 console.log(18 && !true || 18 && !1);
 let username = 'Sikora Nazariy';
 console.log(username ?? "Not name");
-*/
 console.log(+'35' + - '22');
 // Значення 13
 console.log('35' * '22');
@@ -184,3 +183,4 @@ console.log(!false && 18 || 11 && !'');
 // Поверне 18
 let username;
 console.log(username ?? 'Not name');
+*/
